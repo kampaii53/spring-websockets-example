@@ -1,3 +1,5 @@
 # Project exclude paths
 /cloud-gateway/target/
 /websockets-server/target/
+/spring-websockets-example.iml
+/.idea/
