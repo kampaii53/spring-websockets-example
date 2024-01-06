@@ -1,0 +1,11 @@
+server:
+  port: 9999
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test
+          uri: ws://localhost:8080/gs-guide-websocket
+          predicates:
+            - Path=/gs-guide-websocket
